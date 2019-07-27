@@ -92,7 +92,6 @@ class App extends Component {
   }
 
   render() {
-    console.log("GET SHOP DATA: ", this.state.collections);
     if(Object.entries(this.state.shop).length === 0 && this.state.shop.constructor === Object) {
       return (
         <div className="root-inside">

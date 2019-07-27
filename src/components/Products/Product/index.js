@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import VariantSelector from './VariantSelector';
+import VariantSelector from '../VariantSelector';
 import { Link } from "react-router-dom";
 
 class Product extends Component {

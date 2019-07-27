@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import VariantSelectorSingle from '../VariantSelectorSingle';
+import VariantSelectorSingle from './VariantSelectorSingle';
 import ReactLoading from 'react-loading';
 
 class SingleProduct extends Component {
@@ -41,7 +41,6 @@ class SingleProduct extends Component {
     this.setState({
       selectedVariantQuantity: "1"
     });
-    //console.log('STATE FOR SET OPTIONS:', this.state);
   }
 
   fetchProduct = async () => {
@@ -67,7 +66,6 @@ class SingleProduct extends Component {
       selectedVariant: selectedVariant,
       selectedVariantImage: selectedVariant.attrs.image
     });
-    //console.log(this.state);
   }
 
   handleQuantityChange(event) {
@@ -147,7 +145,6 @@ class SingleProduct extends Component {
       });
 
 
-      //console.log('STATE FROM SINGLE PRODUCT:', this.state)
       return(
           <div className="container-fluid h-100 single-product-container">
           <div className="row pr-0 pl-0 h-100">

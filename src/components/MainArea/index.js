@@ -41,7 +41,6 @@ class MainArea extends Component {
   }
 
   render() {
-    console.log('MAIN PANEL: ', this.state);
     return(
       <div className="root-inside">
         <Products
